@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4caf50, #a5d6a7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .signup-container {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .form-card {
+    background: white;
+    border-radius: 16px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .img-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  
+    img {
+      width: 120px;
+      height: auto;
+      border-radius: 12px;
+    }
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  
+    label {
+      text-align: left;
+      font-size: 14px;
+      margin: 8px 0 4px;
+      color: #333;
+    }
+  
+    input {
+      padding: 10px;
+      border-radius: 20px;
+      border: 1px solid #ccc;
+      margin-bottom: 10px;
+    }
+  
+    button {
+      background-color: #0044cc;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 20px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 10px;
+  
+      &:hover {
+        background-color: #0033aa;
+      }
+    }
+  }
+  
+  .social-login {
+    margin-top: 20px;
+  
+    .icon {
+      width: 24px;
+      height: 24px;
+      margin: 0 5px;
+      vertical-align: middle;
+    }
+  
+    .login-text {
+      margin-top: 10px;
+      font-size: 14px;
+  
+      .login-link {
+        color: #d32f2f;
+        font-weight: bold;
+        text-decoration: none;
+  
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  

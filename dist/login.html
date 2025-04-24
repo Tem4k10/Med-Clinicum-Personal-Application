@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма реєстрації</title>
+    <style>body {
+  background-color: #f2f2f2;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  display: flex;
+}
+
+.register-form {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 300px;
+  padding: 30px;
+  box-shadow: 0 0 10px #0000001a;
+}
+
+.register-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.register-form input[type="text"], .register-form input[type="email"], .register-form input[type="password"] {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+}
+
+.register-form button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.register-form button:hover {
+  background-color: #0056b3;
+}
+</style>
+</head>
+<body>
+
+<div class="register-form">
+    <h2>Створити обліковий запис</h2>
+    <form>
+        <label>Ім’я користувача:</label>
+        <input type="text" name="username" required="">
+        
+        <label>Електронна пошта:</label>
+        <input type="email" name="email" required="">
+        
+        <label>Пароль:</label>
+        <input type="password" name="password" required="">
+        
+        <label>Підтвердить пароль:</label>
+        <input type="password" name="confirm_password" required="">
+        
+        <button type="submit">Зареєструватися</button>
+    </form>
+</div>
+
+<script src="/login.355e69e6.js"></script></body>
+</html>
